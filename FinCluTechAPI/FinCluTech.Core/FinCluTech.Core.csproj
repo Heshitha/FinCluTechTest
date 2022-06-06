@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinCluTech.BusinessObject\FinCluTech.BusinessObject.csproj" />
+    <ProjectReference Include="..\FinCluTech.Common\FinCluTech.Common.csproj" />
+    <ProjectReference Include="..\FinCluTech.DataAccess\FinCluTech.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
